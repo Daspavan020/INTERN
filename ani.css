@@ -279,8 +279,8 @@ hr {
   display: flex;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   justify-content: center;
@@ -288,7 +288,7 @@ hr {
   border-radius: 0.75rem;
   border-color: #EEF7FF;
   font-size: 1.875rem;
-  line-height: 1rem;
+  line-height: 2rem;
 }
 
 .getstart:hover {

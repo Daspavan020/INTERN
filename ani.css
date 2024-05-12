@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@media (min-width: 640px) {
+  .content {
+    height: 257px;
+  }
+  
+  
+  .title 
+  {
+    font-size: 6rem;
+    color: #ffffff;
+  }
+  
+  
+  body 
+  {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      /* background-color: #0b0c16; */
+    background-image: url(support/paul-green-mln2ExJIkfc-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat,repeat;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  /* .back
+  {
+    filter: blur(1px);
+  } */
+
+  .container {
+    min-width: 300px;
+  }
+  .card {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+}
+/* @media (min-width: 316px) {
+
+  .title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  body {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .container {
+    margin: 2;
+  }
+} */
+@media (min-width: 1536px) {
+  .disvg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .includes {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .includes {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .container {
+    max-width: 1700px;
+    min-width: 1100px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+}
+
+body {
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.title {
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.des {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.holder {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.plans {
+  background-color: #1B3C73;
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  border: 2px solid;
+  border-color: #EEF7FF;
+  width: fit-content;
+}
+
+.monthly {
+  background-color: #3560b5;
+  color: white; /* background-color: #afafaf7a; */
+  cursor: pointer;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+}
+.annually {
+  cursor: pointer;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+}
+.dropdown {
+  background-color: white;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 1.7rem;
+  margin-bottom: 3.7rem;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #EEF7FF;
+  color: #1B1A55;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 2.5rem;
+}
+.card {
+  border: 1px solid;
+  background-color: #1B3C73;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-color: #EEF7FF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+  /* transition: all 0.3s;
+  scale: 1.04; */
+  transform: scale(1.04);
+  background-color: #0f3370;
+}
+.card86:hover {
+    /* transition: all 0.3s;
+    scale: 1.04; */
+    transform: scale(1.04);
+    background-color: #0f3370;
+  }
+
+.name {
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #4c648d;
+}
+.price {
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+hr {
+  border-top-style: dotted;
+  border-top-width: 2px;
+  border-top-color: #ffffff;
+}
+.svg {
+  min-width: 24px;
+}
+
+.content {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-top: 1.5rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #ffffff;
+
+  padding: 5px;
+}
+
+.disvg {
+  display: flex;
+  gap: 0.5rem;
+}
+.getstart {
+  border: 2px solid;
+  display: flex;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  border-color: #EEF7FF;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.getstart:hover {
+  background-color: #000000;
+  transition: all 0.2s;
+  scale: 1.04;
+  color: rgb(255, 255, 255);
+}
+
+/* animations */
+
+.card {
+  animation: 2s anim-card ease-out;
+}
+
+@keyframes anim-card {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.page {
+  opacity: 0;
+  filter: blur(2px);
+}
+
+.page:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.page {
+  opacity: 0;
+  filter: blur(1px);
+}
+
+/* Repeat for the desired number of elements */
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+.logo 
+{
+  position:absolute;
+  left: 0;
+  top: 0;
+  display:block;
+  font-size: large;
+}

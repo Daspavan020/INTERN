@@ -20,7 +20,7 @@ This is a basic example and doesn't include functionalities like actual subscrip
 **File Structure:**
 
 * `index.html`: The main HTML file containing the webpage content.
-* `style.css`: Stylesheet defining the visual appearance.
+* `ani.css`: Stylesheet defining the visual appearance.
 * `script.js` (Optional): Script file adding interactivity (not included in this example).
 
 **Further Development:**

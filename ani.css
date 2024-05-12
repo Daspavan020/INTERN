@@ -275,12 +275,12 @@ hr {
 
 .getstart1 
 {
-  border: 2px solid;
+  border: 1px solid;
   display: flex;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   justify-content: center;

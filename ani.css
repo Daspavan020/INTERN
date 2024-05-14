@@ -100,7 +100,7 @@
   }
 }
 
-@media (max-width: 639px) {
+@media (max-width: <=639px) {
   /* Adjustments for smaller mobile devices */
   .title {
     font-size: 2rem; /* Adjust font size for smaller screens */

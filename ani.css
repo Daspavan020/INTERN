@@ -107,6 +107,8 @@
   
   body {
     padding: 0.5rem;
+    background-image: url('../images/paul-green-mln2ExJIkfc-unsplash.jpg');
+    /* Adjust background styles as needed */
   }
 
   .container {

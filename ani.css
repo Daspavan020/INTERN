@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-/*
+
 @media (min-width: 640px) {
   .content {
     height: 257px;
@@ -9,10 +9,10 @@
   
   .title 
   {
-    font-size: 6rem;
+    font-size: 2rem;
     color: #ffffff;
   }
-  */
+  
   
   body 
   {

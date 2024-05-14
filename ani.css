@@ -100,10 +100,12 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   /* Adjustments for smaller mobile devices */
   .title {
-    font-size: 3rem;
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-top: 1rem; /* Add margin to position the title */
+    text-align: center; /* Center the title on smaller screens */
   }
   
   body {

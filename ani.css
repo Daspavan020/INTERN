@@ -100,7 +100,7 @@
   }
 }
 
-@media (max-width: 639px) {
+@media (max-width: 640px) {
   /* Adjustments for smaller mobile devices */
   .title {
     font-size: 3rem;

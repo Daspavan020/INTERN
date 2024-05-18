@@ -88,12 +88,12 @@
   .title
   {
     font-size: 0.05rem;
-    color: #000000;
+    color: #ffffff;
   }
   .logo
   {
     font-size: xx-small;
-    color: #000000;
+    color: #ffffff;
   }
   body 
   {
@@ -484,4 +484,5 @@ hr {
   top: 0;
   display:block;
   font-size: large;
+  color: #ffffff;
 }

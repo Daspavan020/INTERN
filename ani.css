@@ -486,3 +486,24 @@ hr {
   font-size: large;
   color: #ffffff;
 }
+.signup-option,
+.signin-option {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-option p,
+.signin-option p {
+    margin: 0;
+}
+
+.signup-option a,
+.signin-option a {
+    color: #4b75d1;
+    text-decoration: none;
+}
+
+.signup-option a:hover,
+.signin-option a:hover {
+    text-decoration: underline;
+}

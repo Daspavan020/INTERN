@@ -53,7 +53,7 @@
 @media (min-width: 316px) {
 
   .title {
-    font-size: 0.25rem;
+    font-size: 1px;
     line-height: 0.5rem;
   }
   body {
@@ -87,7 +87,7 @@
   }
   .title
   {
-    font-size: 0.05rem;
+    font-size: 1px;
     color: #ffffff;
   }
   .logo
@@ -148,7 +148,7 @@
   } */
 
   .container {
-    min-width: 10px;
+    display: flex;
   }
   .card {
     padding-left: 0.5rem;
